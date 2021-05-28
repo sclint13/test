@@ -1,0 +1,257 @@
+/* Custom CSS */
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: white;
+  color: black;
+}
+
+body {
+  background: black;
+  font-family: roboto;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+#pageWrapper {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: auto;
+}
+
+#headerWrapper {
+  background-color: teal;
+  padding: 5px 0;
+  border-radius: 0 0 10px 10px;
+}
+
+h1 {
+  color: rgb(199, 249, 255);
+  font-weight: 300;
+  margin: 0;
+  font-size: 3rem;
+}
+
+header {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header h1 {
+  color: rgb(199, 249, 255);
+  font-weight: 300;
+  margin: 0;
+  font-size: 2rem;
+}
+
+header li > a {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 20px;
+}
+
+header li > a:hover {
+  color: rgb(3, 55, 61);
+}
+
+header ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-left: auto;
+  font-size: 20px;
+  align-items: center;
+}
+
+header hr {
+  height: 20px;
+  text-align: center;
+  border: 0.5px solid whitesmoke;
+}
+
+header li:last-child {
+  padding-right: 0;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky header {
+  padding: 0;
+  height: 2rem;
+}
+
+.sticky h1 {
+  font-size: 1.5rem;
+}
+
+.sticky li {
+  font-size: 1rem;
+  padding: 0 4rem 0 4rem;
+}
+
+.sticky li:last-child {
+  padding-right: 2rem;
+}
+
+#selfie {
+  padding: 5px 5px 0 0;
+  align-items: center;
+  max-width: 100%;
+}
+
+.leftCol {
+  margin: 20px;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+}
+
+.rightCol {
+  margin-right: 20px;
+  width: 500px;
+}
+
+.rightCol a {
+  color: teal;
+}
+
+.rightCol a:hover {
+  color: whitesmoke;
+}
+
+.rightCol strong {
+  text-shadow: 2px 2px 8px teal;
+}
+
+.sect {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#resumeContent {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+#resumeContent img {
+  width: 30%;
+  height: 30%;
+}
+
+.sect:last-of-type {
+  margin-bottom: 3rem;
+}
+
+.horz hr {
+  width: 250px;
+  border: 0.5px solid teal;
+}
+
+#aboutContent h1 {
+  color: rgb(199, 249, 255);
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+#aboutContent p {
+  margin: auto;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+#contactContent {
+  flex-direction: column;
+}
+
+#contactForm {
+  margin: 1.5rem auto 0 auto;
+}
+
+input,
+textarea {
+  border-radius: 10px;
+  border: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: whitesmoke;
+}
+
+#topForm input[type="text"],
+#topForm input[type="email"] {
+  width: 300px;
+  height: 2rem;
+}
+
+#midForm input {
+  width: 650px;
+  height: 2rem;
+  margin: 5px 0 5px 0;
+}
+
+#bodyForm textarea {
+  width: 650px;
+  height: 10rem;
+  text-align: unset;
+}
+
+#formBtn {
+  height: 3rem;
+  width: 8rem;
+  background-color: teal;
+  color: whitesmoke;
+  margin-top: 1rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  justify-self: center;
+}
+
+#formBtn:hover {
+  cursor: pointer;
+  background-color: rgb(3, 55, 61);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formLeft {
+  margin-right: 3rem;
+}
+
+/*THIS CLASS IS A PLACEHOLDER. DELETE BEFORE FINALIZATION*/
+.emptySpace {
+  height: 500px;
+}
+
+footer {
+  background-color: teal;
+  color: white;
+  margin: auto;
+  text-align: center;
+  padding: 0.25rem 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

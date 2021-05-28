@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
+
+.imgSlide {
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrows {
+  font-family: "Reggae One", cursive;
+  margin: 0 20px;
+  font-size: 4rem;
+  padding: 4px;
+  color: var(--mainCol);
+}
+
+.arrows:hover {
+  cursor: pointer;
+  color: var(--navHover);
+}
+
+#sliderPane {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#sliderCont iframe {
+  display: block;
+  width: 50vw;
+  height: 75vh;
+}
+
+#sliderCont img {
+  display: block;
+  width: 50vw;
+  height: 75vh;
+  object-fit: contain;
+}
+
+#slideLink {
+  background-color: rgba(143, 139, 139, 0.25);
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+#slideLink a {
+  padding: 6px;
+}
+
+#slideLink button {
+  background-color: var(--mainCol);
+  font-size: 1.25rem;
+  padding: 8px;
+  color: var(--lightCol);
+  border: unset;
+  border-radius: 10px;
+}
+
+#slideLink button:hover {
+  background-color: var(--navHover);
+  cursor: pointer;
+}

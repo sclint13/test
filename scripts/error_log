@@ -1,0 +1,9 @@
+[18-May-2021 18:36:32 America/Chicago] PHP Parse error:  syntax error, unexpected '$name' (T_VARIABLE) in /home2/sclint13/public_html/scripts/contactScript.php on line 6
+[18-May-2021 18:40:34 America/Chicago] PHP Parse error:  syntax error, unexpected '$name' (T_VARIABLE) in /home2/sclint13/public_html/scripts/contactScript.php on line 6
+[18-May-2021 18:52:55 America/Chicago] PHP Parse error:  syntax error, unexpected '$name' (T_VARIABLE) in /home2/sclint13/public_html/scripts/contactScript.php on line 6
+[18-May-2021 18:55:43 America/Chicago] PHP Parse error:  syntax error, unexpected '$name' (T_VARIABLE) in /home2/sclint13/public_html/scripts/contactScript.php on line 6
+[18-May-2021 19:07:31 America/Chicago] PHP Parse error:  syntax error, unexpected '$name' (T_VARIABLE) in /home2/sclint13/public_html/scripts/contactScript.php on line 6
+[18-May-2021 19:15:29 America/Chicago] PHP Parse error:  syntax error, unexpected '$name' (T_VARIABLE) in /home2/sclint13/public_html/scripts/contactScript.php on line 6
+[18-May-2021 19:21:59 America/Chicago] PHP Parse error:  syntax error, unexpected '$name' (T_VARIABLE) in /home2/sclint13/public_html/scripts/contactScript.php on line 6
+[18-May-2021 19:23:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'mail' (T_STRING) in /home2/sclint13/public_html/scripts/contactScript.php on line 39
+[18-May-2021 19:26:57 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home2/sclint13/public_html/scripts/contactScript.php on line 42

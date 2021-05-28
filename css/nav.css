@@ -1,0 +1,171 @@
+header {
+  /* height: 50px; */
+  /* position: fixed; */
+  background-color: var(--mainCol);
+  padding: 10px 0;
+  border-radius: 0 0 10px 10px;
+  width: 100%;
+}
+
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  /* position: fixed; */
+  /* min-width: 100vw; */
+  padding: 0 15px;
+  text-align: center;
+  /* background-color: var(--mainCol); */
+  /* padding: 5px 0; */
+  font-size: 1rem;
+}
+
+.logo {
+  margin-right: 10vw;
+}
+
+.menu-icon {
+  font-size: 2rem;
+  color: var(--lightCol);
+  line-height: 50px;
+  transition-duration: 0.6s;
+}
+
+nav {
+  position: absolute;
+  display: none;
+  background-color: var(--mainCol);
+  text-align: right;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+}
+
+nav ul {
+  list-style: none;
+  max-height: 0;
+  overflow: hidden;
+  transition-duration: 0.6s;
+}
+
+nav ul li {
+  padding: 0 15px;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 12px;
+  text-decoration: none;
+  color: var(--lightCol);
+  font-size: 1.5rem;
+}
+
+nav ul li a:hover {
+  color: var(--navHover);
+}
+
+#checkbox-menu {
+  display: none;
+  /* opacity: 0; */
+}
+
+#checkbox-menu:checked ~ nav {
+  display: unset;
+}
+
+#checkbox-menu:checked ~ nav ul {
+  max-height: 400px;
+  margin: 0;
+  padding: 0;
+  transition: all 0.5s;
+}
+
+header h1 {
+  color: var(--lightCol);
+  font-weight: 300;
+  margin: 0;
+  padding-top: 2px;
+  padding-left: 2px;
+  transition-duration: 0.6s;
+}
+
+/*
+header li {
+  transition-duration: 0.6s;
+}
+*/
+
+/* header hr {
+  height: 20px;
+  text-align: center;
+  border: 0.5px solid var(--lightCol);
+  transition-duration: 0.6s;
+} */
+
+.sticky {
+  position: fixed;
+  top: 5;
+  width: 100%;
+  transition-duration: 0.6s;
+}
+
+.sticky header {
+  padding: 0;
+  height: 20px !important;
+  transition-duration: 0.6s;
+}
+
+.sticky h1 {
+  font-size: 1.5rem;
+  transition-duration: 0.6s;
+}
+
+.sticky li {
+  font-size: 1rem;
+  /* padding: 1rem 2rem; */
+  transition-duration: 0.6s;
+}
+
+.sticky nav ul li a {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.sticky .navHorzRule {
+  margin-bottom: 20px;
+}
+
+/* .sticky li:last-child {
+  padding-right: 2rem;
+} */
+
+@media (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+
+  /* header {
+    height: 70px;
+  } */
+
+  nav {
+    position: relative;
+    top: 10px;
+    background-color: transparent;
+  }
+
+  nav ul {
+    max-height: 70px;
+    padding: 15px 0;
+    text-align: right;
+  }
+
+  nav ul li {
+    display: inline-flex;
+    padding-left: 20px;
+  }
+
+  .sticky header {
+    height: 50px;
+  }
+}
