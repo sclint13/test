@@ -1,0 +1,282 @@
+/* Developer Custom CSS Stylesheet */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: fromWeb;
+  src: url(../fonts/body.woff2);
+}
+
+/* Reset CSS starts here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: fromWeb, "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Default base settings starts here */
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.5rem;
+}
+h3 {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.block {
+  display: block;
+}
+
+label {
+  font-size: 1.8rem;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+input::placeholder {
+  text-align: left;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Custom Styling Starts Here */
+
+.transition-scroll {
+  opacity: 1;
+  transition: 500ms;
+}
+
+html.is-animating .transition-scroll {
+  opacity: 0;
+}
+
+/* Nav */
+nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8e8e8;
+  z-index: 100;
+}
+
+#nav-toggle {
+  display: none;
+}
+
+#nav-list {
+  display: inherit;
+  align-items: center;
+}
+
+#nav-list a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Dropdown Buttons */
+
+.dropbtn {
+  background-color: #e8e8e8;
+  color: #252525;
+  padding: 1.2rem;
+  font-size: 2rem;
+  border: none;
+  margin: auto;
+}
+
+.dropbtn a {
+  margin: auto;
+}
+#login a {
+  font-weight: bold;
+  color: #fd580b !important;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px !important;
+  width: 100%;
+  overflow: auto;
+  z-index: 1;
+  left: 50%;
+  right: auto;
+  transform: translate(-50%, 0);
+}
+
+.dropdown-content a {
+  background-color: #e8e8e8;
+  color: #000000;
+  font-size: 16px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #fd580b;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sectHead-small {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-bottom: 20px;
+}
+
+#page-wrapper {
+  display: flex;
+  flex-direction: column;
+  z-index: 0;
+  margin-top: 70px;
+  align-items: center;
+}
+
+.tableHeader {
+  background-color: #2d2d2d;
+  color: #fff;
+  font-family: "Smooch Sans", sans-serif;
+  text-align: center;
+  text-shadow: -2px -2px 5px #000000;
+  width: 100vw;
+}
+
+.tableHeader h1 {
+  font-size: 6rem;
+  margin: 2rem;
+}
+
+#staffTable {
+  display: flex;
+  flex-direction: column;
+  background-color: #969696;
+  width: 55vw;
+  height: auto;
+}
+
+/* .apprentice {
+    position: relative;
+    background-color: #2d2d2d;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    max-height: 363px;
+  } */
+
+.apprentice:first-of-type {
+  margin-top: 2rem;
+}
+
+.apprentice {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  height: fit-content;
+  margin: 0 2rem 2rem;
+}
+
+.-long {
+  flex-direction: column;
+}
+
+.apprenticeInfo {
+  background-color: #2d2d2d;
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.-long .apprenticeInfo {
+  width: 100%;
+}
+
+.artistPic img {
+  clip-path: circle(50%);
+}
+
+.artistPic {
+  display: flex;
+  margin: 1rem;
+  border-radius: 50%;
+  border: 6px solid white;
+  padding-left: 1px;
+}
+
+.artistInfo {
+  color: #fff;
+  margin: 2rem 0;
+}
+
+.artistName {
+  font-size: 3rem;
+  /* margin: 2rem 0; */
+}
+
+.artistRole {
+  color: #fd580b;
+  font-size: 1.75rem;
+  margin: 1rem 0;
+}
+
+.artistStatement {
+  padding: 1rem;
+  padding-left: 0;
+  font-size: 1.5rem;
+}
+
+.projectPic {
+  width: 50%;
+}
+
+.projectPic img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.projectPic-long img {
+  width: 100%;
+}

@@ -11,7 +11,7 @@
         </div>
         <div class="rightCol">
             <h1>About</h1>
-            <p>Stephanie Clinton is a twenty-six year-old from Birmingham, Alabama. After graduating Summa Cum Laude from Troy University in 2017 with a BS in Communications, she went back to her hometown of Hueytown, Alabama to work at Michael's Arts & Crafts Store. She is currently working for <a href="https://www.wholesaleaccessorymarket.com/">Wholesale Accessory Market</a> as a picking and receiving manager. Her interests are vast and include writing, coding, mixology, and graphic design. Stephanie is a <strong>jack of all trades: mastery in progress.</strong></p>
+            <p>Stephanie Clinton is a twenty-seven year-old from Birmingham, Alabama. After graduating Summa Cum Laude from Troy University in 2017 with a BS in Communications, she went back to her hometown of Hueytown, Alabama to work at Michael's Arts & Crafts Store. She is currently working for <a href="https://www.wholesaleaccessorymarket.com/">Wholesale Accessory Market</a> as a picking and receiving manager. Her interests are vast and include writing, coding, mixology, and graphic design. Stephanie is a <strong>jack of all trades: mastery in progress.</strong></p>
         </div>
     </div>
 
