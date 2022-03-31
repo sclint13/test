@@ -6,6 +6,11 @@ const works = [
         url: 'examples/landing',
         pic: 'img/landingMobileSS.png'
     },
+    {
+        workName: 'Database',
+        url: 'examples/database',
+        pic: 'NULL'
+    }
     // {
     //     workName: 'Example 2',
     //     url: 'img/self.jpg'
